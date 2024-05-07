@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+    text-transform: none;
+    transition: all .1s linear;
+}
+
+body, input, textarea{
+    font-family: 'Poppins';
+}
+
+header{
+    background-color: #18161e;
+    padding: 16px 0;
+    color: #fff;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+section .store-front{
+    margin-right: 32px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #18161e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.footer{
+    background-color: #18161e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.devName a{
+    color: #fff;
+}
